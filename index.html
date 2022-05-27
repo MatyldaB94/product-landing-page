@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
 
-    <div>
+<body>
+    <div id="prage-wrapper">
         <header id="header">
-            <div>
-                <img id="header-img"
-                    src="https://www.bing.com/images/search?view=detailV2&ccid=%2BQJ0w2p5&id=CC158F9CB623548D0D0F96B3C9E062979C931BB1&thid=OIP.-QJ0w2p5wbMz1me-PHFhDQHaUe&mediaurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F65%2F321%2Fpng-transparent-poster-violin-concerto-musical-note-violin-text-photography-musical-composition.png&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.f90274c36a79c1b333d667be3c71610d%3Frik%3DsRuTnJdi4Mmzlg%26pid%3DImgRaw%26r%3D0&exph=2544&expw=920&q=Text+violin&simid=607998727559464340&form=IRPRST&ck=F0B99855205D2FAAD00D8093D4B25D2D&selectedindex=32&vt=0&sim=11">
+            <div class="logo">
+                <img id="header-img" src="https://pl.wikipedia.org/wiki/Klaun#/media/Plik:Clown-Background.jpg"
+                    alt="clown">
         </header>
     </div>
-    <nav>
+    <nav id="nav-bar">
         <ul>
             <li>
-                <a class="nav-link" href="#Our-clowns">Our Clowns</a>
+                <a class="nav-link" href="#Our-clowns">About us</a>
             </li>
             <li>
                 <a class="nav-link" href="#hire-us">Hire Us</a>
@@ -23,24 +28,60 @@
             </li>
         </ul>
     </nav>
+    </header>
+    <div class="container"></div>
+    <section id="hero">
+        <h1>Clown rental</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" email="email" id="email" placeholder="Enter your email address" required>
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </section>
+    <div class="container">
+        <section id="Our-clowns">
+            > <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-swords">
+                        : : before
+                    </i>
+                </div>
+                <div class="desc">
+                    <h2>Real fight</h2>
+                    <p>
+                        Our clowns will provide a lot of emotions!
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-face-grin-squint-tears">
+                        : : before
+                    </i>
+                </div>
+                <div desc="desc">
+                    <h2>Lot of fun</h2>
+                    <p>Our clowns will give you a lot of laughter. Have a great sense of humo!
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-sack-dollar">
+                        : : before
+                    </i>
+                </div>
+                <div class="desc">
+                    <h2>Save money</h2>
+                    <p>We are the cheepest in the city!</p>
+                </div>
+            </div>
+            <section>
+                <iframe id="wideo" scr="https://www.youtube.com/watch?v=Es4-gK0qEq4" allowfullscreen>
 
-
-
-
-
-
-
+                </iframe>
+            </section>
     </div>
-
-
-
-
-
 </body>
-
-
-
-
 
 
 </html>
