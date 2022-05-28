@@ -1,0 +1,76 @@
+.background {
+    background-color: rgb(220, 245, 247)
+}
+
+.email {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.nav-item {
+    text-align: center;
+
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: serif;
+    color: red;
+    text-align: center;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.text {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 3px;
+    height: 180px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    ;
+
+}
+
+.img-clowns {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 280px;
+
+}
