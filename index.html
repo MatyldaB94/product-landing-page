@@ -11,11 +11,11 @@
 <body>
 
     <div id="prage-wrapper">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark navigation">
+        <header id="header">
+            <nav id="nav-bar" class="navbar navbar-expand-lg bg-dark navigation">
                 <div class="container-fluid">
                     <a class="navbar-brand">
-                        <img src="images/OIP.jpg" alt="" width="60" height="50">
+                        <img src="images/OIP.jpg" alt="clown" width="60" height="50" id="header-img">
                     </a>
                     <div class="collapse navbar-collapse d-flex justify-content-end">
 
@@ -41,7 +41,7 @@
         <section id="hero" class="email">
             <h1 class="title">Clown rental</h1>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input type="email" email="email" id="email" placeholder="Enter your email address" required>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
                 <input id="submit" type="submit" value="submit">
             </form>
         </section>
@@ -71,6 +71,7 @@
                     </div>
                     <div class="desc" id="lot-of-fun">
                         <h2>Lot of fun!</h2>
+                        <div style="display: flex;"></div>
                         <p class="text">Our clowns will give you a lot of fun.<br>They have a great sense of humor!
                             They like to joke a lot and do a lot of
                             pranks!
@@ -116,7 +117,7 @@
                 </div>
                 <section class="watch" id="watch-us">
                     <a>Watch us!</a>
-                    <video class="video" width="320" height="240" controls>
+                    <video id="video" class="video" width="320" height="240" controls>
                         <source src="video/clown.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
