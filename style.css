@@ -63,13 +63,11 @@
 }
 
 .img-clowns {
-    display: block;
+    display: flex;
     margin: auto;
-    width: 50%;
-    height: 50%;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 280px;
+    justify-content: center;
+    padding-top: 100px;
+
 
 }
 
